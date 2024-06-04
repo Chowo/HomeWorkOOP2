@@ -17,4 +17,10 @@ public abstract class Vehicle {
         return wheelsCount;
     }
 
+    public void service() {
+        for (int i = 0; i < getWheelsCount(); i++) {
+            System.out.println("Меняем покрышку");
+        }
+    }
+
 }
